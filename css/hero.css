@@ -25,8 +25,7 @@ h2{
 
 h2 li{
 	text-align: center;
-	font-family: gadget, sans-serif;
-
+	font-family: gadget, sans-serif;	
 }
 
 header img{
@@ -43,7 +42,6 @@ header img{
 	text-align: center;
 	box-shadow: 0 10px 20px #cc5200;
 }
-
 
 img.big-image{
 	max-width: 100%;
@@ -70,7 +68,6 @@ a{
 	text-decoration: none;
 	font-weight: bold;
 }
-
 
 footer{
 	margin-top: 20px;
