@@ -1,6 +1,7 @@
 html, body{
 	font-family: arial, sans-serif;
 	margin: 0;
+	background-color: #ff8533;
 }
 
 header{
@@ -12,21 +13,41 @@ header{
 h1{
 	font-size: 90px;
 	color: white;
+	text-shadow: 0 4px 20px black;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h2{
+	font-family: comic-sans ms, cursive, sans-serif;
+	font-weight: bolder;
+}
+
+h2 li{
+	text-align: center;
+	font-family: gadget, sans-serif;
+
 }
 
 header img{
 	border-radius: 150px;
 	border: 10px solid #ff0000
+	box-shadow: 0 10px 20px black;
 ;
+
 }
 .content{
 	max-width: 900px;
 	margin: 0 auto;
 	padding: 0 20px;
+	text-align: center;
+	box-shadow: 0 10px 20px #cc5200;
 }
+
 
 img.big-image{
 	max-width: 100%;
+	box-shadow: 0 10px 20px #cc5200;
 }
 
 p.caption{
@@ -34,6 +55,7 @@ p.caption{
 	color: lightgrey;
 	font-style: italic;
 	font-family: calligraphic;
+	text-decoration: underline;
 }
 
 ul{
@@ -43,9 +65,12 @@ ul{
 }
 
 a{
-	color: red;
+	color: black;
+	background-color: lightblue;
 	text-decoration: none;
+	font-weight: bold;
 }
+
 
 footer{
 	margin-top: 20px;
